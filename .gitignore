@@ -1,0 +1,132 @@
+# Python
+# ===============================
+# Byte-code files
+*.pyc
+__pycache__/
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distribution / build outputs
+/dist/
+/build/
+/*.egg
+/*.whl
+
+# Virtual environment
+/venv/
+/env/
+/.venv/
+/ENV/
+/env.bak/
+/bin/
+/include/
+/lib/
+/share/
+/local/
+.venv
+venv_py311
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.coverage.*
+htmlcov/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# PyInstaller
+*.spec
+
+# Python specific IDEs and editors
+.idea/  # IntelliJ IDEA / PyCharm
+.vscode/ # VSCode (though often useful to keep for team settings)
+*.sublime-workspace
+*.sublime-project
+.spyproject/
+.DS_Store # macOS specific
+
+# Logs
+*.log
+*.sqlite3
+db.sqlite3
+
+# Node.js
+# ===============================
+# Dependency directories
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime files
+.npm/
+.eslintcache
+.parcel-cache/
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Build outputs
+/build/
+/dist/
+/public/build/
+/out/
+/.next/ # Next.js
+.nuxt/ # Nuxt.js
+.vuepress/dist # VuePress
+.cache/
+.parcel-cache/
+/coverage/ # Jest/Cypress coverage reports
+
+# Editor/IDE specific
+.vscode/ # VSCode (can be useful to keep for team settings, but often ignored)
+*.code-workspace # VSCode workspace file
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other common temporary files
+*~
+#*#
+*.bak
+*.swp
+*.swo
+.fuse_hidden*
+.directory
+
+# Docker
+Dockerfile.orig
+Dockerfile.bak
+
+# Dotenv files (if not already covered by .env)
+.env.*.local
+.env.local
+.flaskenv
+
+# Temporary files
+/tmp/
+/temp/
