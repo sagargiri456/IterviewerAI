@@ -1,5 +1,6 @@
 # config.py
 import os
+import torch
 
 class Settings:
     # CORS

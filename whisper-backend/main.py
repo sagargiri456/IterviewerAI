@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from config import settings
 from api import transcribe, generate, tts
-from services.kokoro_service import load_kokoro_pipeline
+from services.kokoro_service import load_kokoro_pipeline,KokoroService
 import torch
 
 app = FastAPI()
@@ -28,6 +28,7 @@ async def startup_event():
     """
     print("Application starting up...")
     load_kokoro_pipeline()
+    app.state.kokoro_service = KokoroService()
     print("Application startup complete.")
 
 
